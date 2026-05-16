@@ -35,6 +35,7 @@ namespace ChatClient
 
         private async void BtnSend_Click(object sender, RoutedEventArgs e)
         {
+            // TODO: Add input validation and sanitization
             if (stream == null || string.IsNullOrWhiteSpace(txtMessage.Text)) return;
 
             try
