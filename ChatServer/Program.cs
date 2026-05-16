@@ -7,6 +7,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        Console.WriteLine("📡 Server v1.0 started");
         Console.WriteLine("🚀 Chat Server starting...");
 
         TcpListener server = new TcpListener(IPAddress.Any, 8888);
